@@ -1,0 +1,5 @@
+2019-08-08T15:24:31.282662413Z INFO:aido-protocols:aido-protocols 5.0.5
+2019-08-08T15:24:31.339751490Z [2m15:24:31|[0mzn[2m|__init__.py:6|<module>(): [0m[32mzn 2.0.3[0m
+2019-08-08T15:24:32.075663247Z [2m15:24:32|[0mzj[2m|__init__.py:5|<module>(): [0m[32mzj 2.0.3[0m
+2019-08-08T15:24:32.345325726Z [2m15:24:32|[0mdt-world[2m|__init__.py:12|<module>(): [0m[32mduckietown-world 1.0.30[0m
+2019-08-08T15:24:32.347372837Z [2m15:24:32|[0mdt-world[2m|__init__.py:22|<module>(): [0m[32mcontracts 1.8.12 [0m

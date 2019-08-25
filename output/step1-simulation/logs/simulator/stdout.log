@@ -1,0 +1,3 @@
+2019-08-08T15:24:28.545263523Z /project/launch.sh >  Starting xvfb
+2019-08-08T15:24:28.545321004Z /project/launch.sh >  Started xvfb with PID 8
+2019-08-08T15:24:28.545331147Z /project/launch.sh >  Now running gym_bridge.py

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+.ansi2 { font-weight: lighter; }
+.ansi32 { color: #00aa00; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+2019-08-08T15:24:32.584299011Z INFO:aido-protocols:aido-protocols 5.0.1
+2019-08-08T15:24:32.703898314Z <span class="ansi2">15:24:32|</span>zn<span class="ansi2">|__init__.py:6|&lt;module&gt;(): </span><span class="ansi32">zn 2.0.2</span>
+2019-08-08T15:24:35.156241141Z <span class="ansi2">15:24:35|</span>zj<span class="ansi2">|__init__.py:5|&lt;module&gt;(): </span><span class="ansi32">zj 2.0.1</span>
+2019-08-08T15:24:40.827268764Z Traceback (most recent call last):
+2019-08-08T15:24:40.827302065Z   File "solution.py", line 78, in &lt;module&gt;
+2019-08-08T15:24:40.827310690Z     main()
+2019-08-08T15:24:40.827317054Z   File "solution.py", line 72, in main
+2019-08-08T15:24:40.827322749Z     node = PytorchRLBaseline()
+2019-08-08T15:24:40.827328422Z   File "solution.py", line 23, in __init__
+2019-08-08T15:24:40.827333805Z     self.model.load(fp, "models", for_inference=True)
+2019-08-08T15:24:40.827339452Z   File "/workspace/model.py", line 229, in load
+2019-08-08T15:24:40.827345585Z     self.actor.load_state_dict(torch.load('{}/{}_actor.pth'.format(directory, filename), map_location=device))
+2019-08-08T15:24:40.827351298Z   File "/usr/local/lib/python3.7/site-packages/torch/serialization.py", line 366, in load
+2019-08-08T15:24:40.827357094Z     f = open(f, 'rb')
+2019-08-08T15:24:40.827362597Z FileNotFoundError: [Errno 2] No such file or directory: 'models/model_actor.pth'
+
+</pre>
+</body>
+
+</html>

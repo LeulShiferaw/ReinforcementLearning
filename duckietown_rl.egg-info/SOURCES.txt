@@ -1,0 +1,7 @@
+README.md
+setup.py
+duckietown_rl.egg-info/PKG-INFO
+duckietown_rl.egg-info/SOURCES.txt
+duckietown_rl.egg-info/dependency_links.txt
+duckietown_rl.egg-info/requires.txt
+duckietown_rl.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+status: error
+msg: 'The container "solution" exited with code 1.
+
+
+
+  Look at the logs for the container to know more about the error.'
+scores: {}
+stats: {}
+ipfs_hashes: {}

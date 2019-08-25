@@ -1,0 +1,19 @@
+status: host-error
+msg: "Error while running Docker Compose:\n\nCould not run ['docker-compose', '-p',\
+  \ 'project69620', 'up', '-d', '--renew-anon-volumes']:\n\n   >  Command '['docker-compose',\
+  \ '-p', 'project69620', 'up', '-d', '--renew-anon-volumes']' returned non-zero exit\
+  \ status 1.\n\nstdout | \n\nstderr | Creating network \"project69620_evaluation\"\
+  \ with the default driver\nstderr | Creating volume \"project69620_fifos\" with\
+  \ default driver\nstderr | Creating project69620_evaluator_1 ...\nstderr | \e[1A\e\
+  [2K\nstderr | Creating project69620_evaluator_1 ... \e[31merror\e[0m\nstderr | \e\
+  [1B\nstderr | ERROR: for project69620_evaluator_1  Cannot start service evaluator:\
+  \ driver failed programming external connectivity on endpoint project69620_evaluator_1\
+  \ (4f3811726ce89e2c7a268d6424b36026ae43fe3feff66b86080c4b8c39836243): Bind for 0.0.0.0:8005\
+  \ failed: port is already allocated\nstderr | \nstderr | ERROR: for evaluator  Cannot\
+  \ start service evaluator: driver failed programming external connectivity on endpoint\
+  \ project69620_evaluator_1 (4f3811726ce89e2c7a268d6424b36026ae43fe3feff66b86080c4b8c39836243):\
+  \ Bind for 0.0.0.0:8005 failed: port is already allocated\nstderr | Encountered\
+  \ errors while bringing up the project.\nstderr | "
+scores: {}
+stats: {}
+ipfs_hashes: {}

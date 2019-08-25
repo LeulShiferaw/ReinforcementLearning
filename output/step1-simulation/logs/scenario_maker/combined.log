@@ -1,0 +1,6 @@
+2019-08-08T15:24:30.784181644Z INFO:dt-world:duckietown-world 1.0.30
+2019-08-08T15:24:30.799419653Z INFO:zj:zj 2.0.3
+2019-08-08T15:24:30.831481508Z INFO:dt-world:contracts 1.8.12 
+2019-08-08T15:24:32.195494948Z INFO:aido-protocols:aido-protocols 5.0.5
+2019-08-08T15:24:32.207398230Z [2m15:24:32|[0mzn[2m|__init__.py:6|<module>(): [0m[32mzn 2.0.3[0m
+2019-08-08T15:24:33.304949651Z [2m15:24:33|[0mznw[2m|wrapper.py:432|check_implementation(): [0m[32mchecking implementation[0m

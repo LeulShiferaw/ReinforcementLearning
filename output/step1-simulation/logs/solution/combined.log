@@ -1,0 +1,15 @@
+2019-08-08T15:24:32.584299011Z INFO:aido-protocols:aido-protocols 5.0.1
+2019-08-08T15:24:32.703898314Z [2m15:24:32|[0mzn[2m|__init__.py:6|<module>(): [0m[32mzn 2.0.2[0m
+2019-08-08T15:24:35.156241141Z [2m15:24:35|[0mzj[2m|__init__.py:5|<module>(): [0m[32mzj 2.0.1[0m
+2019-08-08T15:24:40.827268764Z Traceback (most recent call last):
+2019-08-08T15:24:40.827302065Z   File "solution.py", line 78, in <module>
+2019-08-08T15:24:40.827310690Z     main()
+2019-08-08T15:24:40.827317054Z   File "solution.py", line 72, in main
+2019-08-08T15:24:40.827322749Z     node = PytorchRLBaseline()
+2019-08-08T15:24:40.827328422Z   File "solution.py", line 23, in __init__
+2019-08-08T15:24:40.827333805Z     self.model.load(fp, "models", for_inference=True)
+2019-08-08T15:24:40.827339452Z   File "/workspace/model.py", line 229, in load
+2019-08-08T15:24:40.827345585Z     self.actor.load_state_dict(torch.load('{}/{}_actor.pth'.format(directory, filename), map_location=device))
+2019-08-08T15:24:40.827351298Z   File "/usr/local/lib/python3.7/site-packages/torch/serialization.py", line 366, in load
+2019-08-08T15:24:40.827357094Z     f = open(f, 'rb')
+2019-08-08T15:24:40.827362597Z FileNotFoundError: [Errno 2] No such file or directory: 'models/model_actor.pth'

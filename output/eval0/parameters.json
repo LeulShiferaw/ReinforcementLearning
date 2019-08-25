@@ -1,0 +1,9 @@
+version: '3'
+services:
+  evaluator:
+    image: docker.io/amaurx/aido2-lf-real-validation-offseason-eval0-evaluator:2019_06_19_16_12_11@sha256:1cc1f34ccf9060b7ef286d8dfcf0e1815d5a220d5850a342090537ed313f7ea3
+    environment: {}
+    ports:
+    - 8005:8005
+
+s: dummy-org/dummy-repo

@@ -1,0 +1,29 @@
+networks:
+  evaluation: {}
+services:
+  evaluator:
+    environment:
+      HOME: /fake-home/leulshiferaw
+      SUBMISSION_CONTAINER: dummy-org/dummy-repo
+      USER: leulshiferaw
+      challenge_name: aido2-LF-real-validation-offseason
+      challenge_step_name: eval0
+      submission_id: 0
+      uid: 1000
+      username: leulshiferaw
+    image: docker.io/amaurx/aido2-lf-real-validation-offseason-eval0-evaluator:2019_06_19_16_12_11
+    networks:
+      evaluation:
+        aliases:
+        - evaluation
+    ports:
+    - 8005:8005/tcp
+    user: '1000:0'
+    volumes:
+    - /home/leulshiferaw/challenge-aido_LF-baseline-RL-sim-pytorch/output/eval0.tmp:/challenges:rw
+    - /home/leulshiferaw/challenge-aido_LF-baseline-RL-sim-pytorch/output/eval0.tmp/fifos:/fifos:rw
+    - /tmp/fake-leulshiferaw-home:/fake-home/leulshiferaw:rw
+version: '3.0'
+volumes:
+  fifos: {}
+

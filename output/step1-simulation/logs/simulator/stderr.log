@@ -1,0 +1,19 @@
+2019-08-08T15:24:28.546514420Z _XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+2019-08-08T15:24:28.803311235Z INFO:aido-protocols:aido-protocols 5.0.5
+2019-08-08T15:24:28.846202407Z [2m15:24:28|[0mzn[2m|__init__.py:6|<module>(): [0m[32mzn 2.0.3[0m
+2019-08-08T15:24:29.480831100Z [2m15:24:29|[0mzj[2m|__init__.py:5|<module>(): [0m[32mzj 2.0.4[0m
+2019-08-08T15:24:29.726900544Z [2m15:24:29|[0mdt-world[2m|__init__.py:12|<module>(): [0m[32mduckietown-world 1.0.30[0m
+2019-08-08T15:24:29.728811820Z [2m15:24:29|[0mdt-world[2m|__init__.py:22|<module>(): [0m[32mcontracts 1.8.12 [0m
+2019-08-08T15:24:30.000441392Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:10|<module>(): [0m[32mgym-duckietown 2019.0.0[0m
+2019-08-08T15:24:30.000477222Z [32m[0m
+2019-08-08T15:24:30.023680813Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:24|reg_map_env(): [0m[32mRegistering gym environment id: Duckietown-small_loop-v0[0m
+2019-08-08T15:24:30.026194147Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:24|reg_map_env(): [0m[32mRegistering gym environment id: Duckietown-loop_pedestrians-v0[0m
+2019-08-08T15:24:30.026207527Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:24|reg_map_env(): [0m[32mRegistering gym environment id: Duckietown-loop_empty-v0[0m
+2019-08-08T15:24:30.026213268Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:24|reg_map_env(): [0m[32mRegistering gym environment id: Duckietown-loop_obstacles-v0[0m
+2019-08-08T15:24:30.026218755Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:24|reg_map_env(): [0m[32mRegistering gym environment id: Duckietown-udem1-v0[0m
+2019-08-08T15:24:30.026223877Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:24|reg_map_env(): [0m[32mRegistering gym environment id: Duckietown-zigzag_dists-v0[0m
+2019-08-08T15:24:30.026229044Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:24|reg_map_env(): [0m[32mRegistering gym environment id: Duckietown-loop_dyn_duckiebots-v0[0m
+2019-08-08T15:24:30.026234661Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:24|reg_map_env(): [0m[32mRegistering gym environment id: Duckietown-straight_road-v0[0m
+2019-08-08T15:24:30.026238298Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:24|reg_map_env(): [0m[32mRegistering gym environment id: Duckietown-small_loop_cw-v0[0m
+2019-08-08T15:24:30.026241654Z [2m15:24:30|[0mgym-duckietown[2m|__init__.py:24|reg_map_env(): [0m[32mRegistering gym environment id: Duckietown-4way-v0[0m
+2019-08-08T15:24:30.464606476Z [2m15:24:30|[0mznw[2m|wrapper.py:432|check_implementation(): [0m[32mchecking implementation[0m
